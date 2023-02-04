@@ -1,0 +1,18 @@
+
+
+<form>
+  <div class="form-group">
+    <h2>{{title}}</h2>
+    Número 1: <input type="number" [(ngModel)]="value1" name="value1"><br/><br>
+    Número 2: <input type="number" [(ngModel)]="value2" name="value2"><br/><br>
+    
+    <input type="submit" class="btn btn-dark" value="Restar" (click)="restar()"><br/><br>
+    <input type="reset" class="btn btn-primary" value="Limpiar" (click)="limpiar()"><br/><br>
+
+    <h3>Resultado: {{result}}</h3>
+  </div>
+  
+</form>
+
+
+
